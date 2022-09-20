@@ -25,7 +25,7 @@ export const Multiplier = () => {
 					Calcular
 				</button>
 			</div>
-			<p>Rerultado : {result}</p>
+			<p>Resultado : {result}</p>
     </section>
   );
 };
