@@ -1,0 +1,38 @@
+.profile-container{
+  max-width: 700px;
+	margin: 30px auto;
+	background-color: #222;
+	border: 1px solid #333;
+	border-radius: 8px;
+	padding: 20px;
+	h2 {
+		margin-top: 30px;
+		margin-bottom: 10px
+	}
+	.img{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img{
+			border-radius: 180px;
+		}
+	}
+}
+.repo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #555;
+  padding: 20px;
+	border-radius: 6px;
+  .repo_link {
+		color: #fff;
+		font-weight: bold;
+		text-transform: capitalize;
+		text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+		max-width: 170px;
+  }
+}

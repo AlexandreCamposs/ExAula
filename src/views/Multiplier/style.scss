@@ -1,0 +1,45 @@
+.multiplier-container{
+  max-width: 700px;
+	margin: 30px auto;
+	background-color: #222;
+	border: 1px solid #333;
+	border-radius: 8px;
+	padding: 20px;
+	p {
+		font-size: 1.6rem;
+		margin-top: 20px;
+	}
+  h2{
+    text-align: center;
+  }
+	.inputs {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		input {
+      text-align: center;
+			padding: 10px;
+			font-size: 1rem;
+			font-size: 1.2rem;
+			font-weight: 400;
+			padding: 10px 20px;
+			border-radius: 8px;
+			width: 100%;
+			margin-top: 20px;
+		}
+
+		button{
+			background-color: rgb(73, 117, 204);
+			color: #fff;
+			font-size: 1.5rem;
+			font-weight: 500;
+			padding: 10px 20px;
+			border-radius: 8px;
+			width: 100%;
+			margin-top: 20px;
+		}
+
+
+	}
+}
